@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: localhost
+    listener:
+      direct:
+        consumers-per-queue: 1
+        acknowledge-mode: manual
+      simple:
+        acknowledge-mode: manual
