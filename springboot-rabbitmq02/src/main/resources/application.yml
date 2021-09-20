@@ -8,7 +8,9 @@ spring:
         acknowledge-mode: manual
       simple:
         acknowledge-mode: manual
+        prefetch: 1
+        concurrency: 5
+        max-concurrency: 5
     virtual-host: /
     connection-timeout: 5000
     publisher-confirm-type: correlated
-

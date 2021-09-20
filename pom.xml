@@ -10,6 +10,7 @@
 	<modules>
 		<module>rabbitmq-helloworld</module>
 		<module>springboot-rabbitmq01</module>
+		<module>springboot-rabbitmq02</module>
 	</modules>
 	<packaging>pom</packaging>
 
